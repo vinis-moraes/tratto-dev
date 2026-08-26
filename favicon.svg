@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#e2e8f0"/>
+      <stop offset="70%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="darkShine" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <!-- Pure black background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="#050505"/>
+  
+  <!-- Stylized Tratto "T" with Razor Blade Geometry -->
+  <g transform="translate(16, 16) scale(0.94)">
+    <!-- Top Horizontal Bar -->
+    <path d="M 160 160 
+             C 175 142, 205 136, 235 136 
+             L 375 136 
+             C 385 136, 395 145, 392 155 
+             L 368 184 
+             C 365 188, 360 190, 355 190 
+             L 190 190 
+             Z" 
+          fill="url(#silverGrad)"/>
+
+    <!-- Vertical / Diagonal Stem of T with Razor Spine -->
+    <path d="M 215 190 
+             L 285 190 
+             C 275 240, 245 320, 185 375 
+             L 175 375 
+             C 230 310, 255 245, 260 190 
+             Z" 
+          fill="url(#darkShine)"/>
+
+    <!-- Curved Razor Blade & Handle Form -->
+    <path d="M 285 190 
+             C 320 200, 355 198, 360 208 
+             C 362 214, 354 218, 345 220 
+             C 310 225, 290 250, 275 285 
+             C 255 330, 220 380, 175 380 
+             C 165 380, 160 375, 168 365 
+             C 210 305, 250 240, 285 190 
+             Z" 
+          fill="url(#silverGrad)"/>
+
+    <!-- Razor Tang Pin / Pivot Detail -->
+    <circle cx="355" cy="214" r="5" fill="#050505"/>
+    <circle cx="355" cy="214" r="3" fill="#ffffff" opacity="0.8"/>
+  </g>
+</svg>

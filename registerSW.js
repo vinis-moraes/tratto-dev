@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/tratto-dev/sw.js', { scope: '/tratto-dev/' })})}
